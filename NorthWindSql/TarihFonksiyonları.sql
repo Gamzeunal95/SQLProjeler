@@ -33,3 +33,10 @@ Select FirstName,
        DateDiff (year,Birthdate, GetDate()) 
 From Employees
 where DateDiff (year,Birthdate, GetDate()) > 70   --Yaşı 70'den büyük olsun dedik.
+
+Select
+DatePart (hour , GETDATE ()) Saat,
+DatePart (MINUTE,getDate ()) Dakika,
+DatePart (Second , getDate()) Saniye ,
+DatePart (MILLISECOND , GetDate ()) MilliSecond,
+DatePart (MICROSECOND , GetDate ()) MicroSecond
