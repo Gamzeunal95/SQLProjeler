@@ -63,5 +63,6 @@
     <Build Include="SorguOrnegi.sql" />
     <Build Include="TarihFonksiyonları.sql" />
     <Build Include="LikeKullanımı.sql" />
+    <Build Include="StringFonksiyonları.sql" />
   </ItemGroup>
 </Project>
