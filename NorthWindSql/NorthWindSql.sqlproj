@@ -64,5 +64,6 @@
     <Build Include="TarihFonksiyonları.sql" />
     <Build Include="LikeKullanımı.sql" />
     <Build Include="StringFonksiyonları.sql" />
+    <Build Include="AggregateFonksiyonlar.sql" />
   </ItemGroup>
 </Project>
