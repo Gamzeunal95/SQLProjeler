@@ -47,15 +47,3 @@ Where City = 'London' and fax is not null
 --Fax numarasi olmayan müsterilerim
 Select * from Customers
 Where Fax is Null
-
--- Tarih Fonksiyonları
-Select * From Employees
-Order by BirthDate
-
-Select * From Employees
-Where year(BirthDate)>=1960   -- 1960 ve üstü bunun farklı şekilde de sorgulayabiirin
-Order by BirthDate
-
-Select * from Orders
-Where year(OrderDate) = 1996 and MONTH(OrderDate) =12
-Order by OrderDate   -- OrderDate yerine hangkolondaysa ayısını da kullanabiliriz.
