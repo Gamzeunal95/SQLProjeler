@@ -3,9 +3,9 @@
 
 --Count Fonksiyonu 
 --Sorgudaki kayıt sayısını verir
+Select * from Employees
 
 -- Employee tablosundaki kayıt sayısı
-Select * from Employees
 select count (*)
 from Employees
 

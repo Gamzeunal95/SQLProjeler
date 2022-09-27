@@ -59,11 +59,11 @@
     <Folder Include="Properties" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="TemelSorgular.sql" />
     <Build Include="SorguOrnegi.sql" />
     <Build Include="TarihFonksiyonları.sql" />
     <Build Include="LikeKullanımı.sql" />
     <Build Include="StringFonksiyonları.sql" />
     <Build Include="AggregateFonksiyonlar.sql" />
+    <Build Include="GroupBy.sql" />
   </ItemGroup>
 </Project>
