@@ -66,5 +66,6 @@
     <Build Include="AggregateFonksiyonlar.sql" />
     <Build Include="GroupBy.sql" />
     <Build Include="SubQuary.sql" />
+    <Build Include="Join.sql" />
   </ItemGroup>
 </Project>
