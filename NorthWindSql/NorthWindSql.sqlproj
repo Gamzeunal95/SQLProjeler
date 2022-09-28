@@ -61,11 +61,12 @@
   <ItemGroup>
     <Build Include="SorguOrnegi.sql" />
     <Build Include="TarihFonksiyonları.sql" />
-    <Build Include="LikeKullanımı.sql" />
     <Build Include="StringFonksiyonları.sql" />
     <Build Include="AggregateFonksiyonlar.sql" />
     <Build Include="GroupBy.sql" />
     <Build Include="SubQuary.sql" />
+    <Build Include="LikeKullanımı.sql" />
     <Build Include="Join.sql" />
+    <Build Include="StoredProcedure.sql" />
   </ItemGroup>
 </Project>

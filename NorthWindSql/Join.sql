@@ -113,3 +113,11 @@ inner join Orders o on e.EmployeeID = o.EmployeeID
 inner join [Order Details] dt on dt.OrderID = o.OrderID
 Group by (e. FirstName + ' ' + e.LastName),o.ShipCountry
 Order by 3 desc 
+
+
+-- Alinan siparis sayisinin yillara göre dagılımı
+Select year (OrderDate) ,DATEPART(MONTH,OrderDate) Ay , COUNT (*)
+from Orders
+Group by year (OrderDate), DATEPART(MONTH,OrderDate)
+Order by 1,2                   --Buradaki order sıralamak anlamında Sipariş olan Order ile karıştırma.
+
