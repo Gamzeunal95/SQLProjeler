@@ -70,5 +70,6 @@
     <Build Include="StoredProcedure.sql" />
     <Build Include="KargoSorularıOrnekler.sql" />
     <Build Include="DynamicSQL.sql" />
+    <Build Include="Trigger.sql" />
   </ItemGroup>
 </Project>
