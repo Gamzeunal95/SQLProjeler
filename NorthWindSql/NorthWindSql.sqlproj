@@ -68,5 +68,7 @@
     <Build Include="LikeKullanımı.sql" />
     <Build Include="Join.sql" />
     <Build Include="StoredProcedure.sql" />
+    <Build Include="KargoSorularıOrnekler.sql" />
+    <Build Include="DyamicSQL.sql" />
   </ItemGroup>
 </Project>
