@@ -1,4 +1,4 @@
-﻿ALTER TRIGGER dbo.UpdateProduct
+﻿CREATE TRIGGER dbo.UpdateProduct
    ON  [Order Details]
 
    AFTER INSERT
@@ -50,7 +50,7 @@ GO
 
 --UPDATE İŞLEMİ İÇİNDE AŞAĞIDAKİ KISMI YAZDIK
 
-Alter TRIGGER dbo.UpdateProductForupdate
+CREATE TRIGGER dbo.UpdateProductForupdate
    ON  [Order Details]
 
    AFTER UPDATE
@@ -75,3 +75,5 @@ BEGIN
 
 END
 GO
+
+-- BİR KERE CREATE OLARAK OLUŞTURDUKTAN SONRA KODDA HER DEĞİŞİKLİK YAPMAK İSTEDİĞİMİZDE 'ALTER' İLE BAŞLAYACAĞIZ.
