@@ -42,7 +42,7 @@ BEGIN
 	select @ProductId = d.ProductID, @Adet=d.Quantity  from deleted d
 
 	-- Insert sırasında gele product'ı update ediyorum
-	Update Products set UnitsOnOrder = UnitsOnOrder + @Adet Where ProductID = @ProductId
+	Update Products set UnitsOnOrder = UnitsOnOrder - @Adet Where ProductID = @ProductId
 
 
 END
