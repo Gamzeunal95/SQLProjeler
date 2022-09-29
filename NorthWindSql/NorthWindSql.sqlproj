@@ -69,6 +69,6 @@
     <Build Include="Join.sql" />
     <Build Include="StoredProcedure.sql" />
     <Build Include="KargoSorularıOrnekler.sql" />
-    <Build Include="DyamicSQL.sql" />
+    <Build Include="DynamicSQL.sql" />
   </ItemGroup>
 </Project>

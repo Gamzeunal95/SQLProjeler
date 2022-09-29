@@ -1,4 +1,4 @@
-﻿alter procedure DinamikKargoTasimaListesi 
+﻿Alter procedure DinamikKargoTasimaListesi 
 @kargoId varchar(5),
 @ulke nvarchar(50) =null,
 @yil varchar(5) =null
@@ -32,10 +32,9 @@ End
 set @sql = @sql + ' Order by 2'
 
 
-
 print @sql
 exec (@sql)
 End
 
 --Sorgu içinde aşağıdaki gibi attık
-exec DinamikKargoTasimaListesi 1,Null, 1997
+exec DinamikKargoTasimaListesi  1,Null, 1997
