@@ -39,6 +39,7 @@ End
 exec DinamikKargoTasimaListesi  1,Null, 1997
 
 
+--ORNEK 2
 -- Çalışan Id lerine göre Kaç yılında ? Kaç sipariş almış ?
 Create Procedure CalisanDinamik @calisanID int
 as
@@ -57,3 +58,5 @@ End
 
 --Sorgu içinde aşağıdaki gibi attık
 exec [dbo].[CalisanDinamik] 1
+
+
