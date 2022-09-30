@@ -71,5 +71,6 @@
     <Build Include="KargoSorularıOrnekler.sql" />
     <Build Include="DynamicSQL.sql" />
     <Build Include="Trigger.sql" />
+    <Build Include="TriggerVeCursorKullanımı.sql" />
   </ItemGroup>
 </Project>
