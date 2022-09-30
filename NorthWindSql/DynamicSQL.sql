@@ -38,3 +38,23 @@ End
 
 --Sorgu içinde aşağıdaki gibi attık
 exec DinamikKargoTasimaListesi  1,Null, 1997
+
+
+-- Çalışan Id lerine göre Kaç yılında ? Kaç sipariş almış ?
+Create Procedure CalisanDinamik @calisanID int
+as
+Begin
+Declare @sql varchar(max)
+Set @sql = 'Select e.FirstName, e.LastName, YEAR(o.OrderDate) yil , count(*) Adet
+from Employees e 
+inner join Orders o on o.EmployeeID = e. EmployeeID
+Where e.EmployeeID =' +Convert(varchar, @calisanID)
+
+set @sql = @sql + 'Group By e.FirstName , e.LastName , YEAR(o.OrderDate)'
+
+Print(@sql)
+Exec (@sql)
+End
+
+--Sorgu içinde aşağıdaki gibi attık
+exec [dbo].[CalisanDinamik] 1
