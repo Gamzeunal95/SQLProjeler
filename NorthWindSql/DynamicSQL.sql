@@ -31,7 +31,6 @@ End
 
 set @sql = @sql + ' Order by 2'
 
-
 print @sql
 exec (@sql)
 End
