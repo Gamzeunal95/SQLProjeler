@@ -15,7 +15,7 @@ BEGIN
    --Dongu ile donuyoruz
    while @@FETCH_STATUS =0
    Begin
-		insert into KullaniciMenuleri (KullaniciId,Id,isActive) values (@KullaniciId,@menuId,1)
+		insert into KullaniciMenuleri (KullaniciId,MenüId,isActive) values (@KullaniciId,@menuId,1)
 	 fetch next from menucursor into @menuId
    end
    --Cursor'i kapatiyoruz
