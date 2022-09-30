@@ -72,5 +72,6 @@
     <Build Include="DynamicSQL.sql" />
     <Build Include="Trigger.sql" />
     <Build Include="TriggerVeCursorKullanımı.sql" />
+    <Build Include="DynamicSQLOrnek.sql" />
   </ItemGroup>
 </Project>
