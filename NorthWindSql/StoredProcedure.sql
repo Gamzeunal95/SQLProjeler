@@ -33,7 +33,7 @@ End
 -- Kaydettikten sonra çalıştırmak için şu sorguyu at.
 exec dbo.İkiTarihArasıSiparisler '1996-07-04 00:00:00.000' , '1996-07-31 00:00:00.000'
 
----
+
 
 --Ulkelere gore siparisleri getirmek için bu soruyu yazıp procedure olarak ekledik
 Create procedure dbo.UlkeSiparisleri @ulke nvarchar(15)
@@ -47,7 +47,7 @@ End
 --Kaydettikten sonra çalıştırmak için şu sorguyu at.
 Exec dbo.UlkeSiparisleri 'USA'   --dbo. yazmadan da çalıştırabilirsin.
 
----
+
 
 -- Customer tablosunda şehirin listesini getiren bir procedur yazalım.
 Create procedure dbo.CustomerSehirler
@@ -61,7 +61,7 @@ End
 --Sorgudada adını verdiğim şehiri listelesin
 exec dbo.CustomerSehirler 'London'
 
----
+
 -- Kargocuların siparişleri
 Create PROCEDURE [dbo].[KargocularinSiparisleri] 
 	-- Add the parameters for the stored procedure here
