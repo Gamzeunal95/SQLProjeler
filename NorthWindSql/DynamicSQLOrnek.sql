@@ -22,7 +22,7 @@ Where Year(o.OrderDate ) = 1997 and e.EmployeeID = 1          -- Employee Id 1 o
 Group By e.FirstName , e.LastName , YEAR(o.OrderDate)
 
 
---YUKARIDA YALANLARA GÖRE HEPSİNİ BİR YERDE TOPLAYARAK PROCEDUR VE DYNAMİC SQL OLUŞTUR
+--YUKARIDA YAPILANLARA GÖRE HEPSİNİ BİR YERDE TOPLAYARAK PROCEDUR VE DYNAMİC SQL OLUŞTUR
 
 Alter procedure CalisanlarYillaraGoreSatısDinamik 
 @calisanId varchar(5) ,
